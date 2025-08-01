@@ -26,3 +26,33 @@ A simple and user-friendly desktop To-Do List application built with Python's Tk
 
 ## 📁 Project Structure
 
+todo-tkinter-app/
+
+├── main.py
+
+├── README.md
+
+└── backend/
+
+├── task.json
+
+└── completed.json
+
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/<your-username>/todo-tkinter-app.git
+cd todo-tkinter-app
+```
+
+Run the App
+```
+python main.py
+```
+
+✅ On first run, the app will automatically create the backend/ folder and required .json files if they don’t exist.
